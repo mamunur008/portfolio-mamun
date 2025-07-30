@@ -8,7 +8,7 @@
           <i class="fas fa-file-pdf"></i>
         </div>
         <p>Download my comprehensive resume to learn more about my professional journey, technical expertise, and accomplishments.</p>
-        <a href="#" class="resume-download"> <i class="fas fa-download"></i> Download Resume (PDF) </a>
+        <a href="/files/Mamunur_Rashid_July_2025.pdf" class="resume-download"> <i class="fas fa-download"></i> Download Resume (PDF) </a>
       </div>
     </div>
   </section>
