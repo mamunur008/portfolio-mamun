@@ -12,7 +12,7 @@
         </div>
         <div class="hero-image">
           <!-- <img src="~/assets/images/mamun1.jpeg" alt="Md. Mamunur Rashid" /> -->
-          <NuxtImg src="/images/mamun11.jpg" :placeholder="[50, 25, 75, 5]" />
+          <NuxtImg src="/images/mamun11.jpg" :placeholder="[50, 25, 75, 5]" loading="lazy" format="webp" />
           <div class="experience-badge">21+ Years Experience</div>
         </div>
       </div>
