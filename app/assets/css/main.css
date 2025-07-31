@@ -502,6 +502,7 @@ nav {
 
 .timeline-desc {
   margin-bottom: 15px;
+  font-weight: 700;
 }
 
 /* Education Section */
@@ -609,7 +610,7 @@ nav {
 
 .contact-detail {
   font-size: 1.1rem;
-  color: var(--text);
+  color: var(--accent);
 }
 
 /* Footer */
@@ -638,6 +639,7 @@ footer {
   color: white;
   font-size: 1.2rem;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .social-link:hover {

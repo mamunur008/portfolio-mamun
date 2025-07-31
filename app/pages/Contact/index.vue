@@ -8,13 +8,33 @@
         <div class="contact-info">
           <div class="contact-item">
             <div class="contact-icon">
-              <i class="fas fa-envelope"></i>
               <icon name="fa6-solid:envelope" />
             </div>
             <h3 class="contact-title">Email</h3>
-            <p class="contact-detail">manumur008@gmail.com</p>
+            <p class="contact-detail"><a href="mailto:manumur008@gmail.com" role="button">manumur008@gmail.com </a></p>
           </div>
-
+          <div class="contact-item">
+            <div class="contact-icon">
+              <Icon name="fa6-brands:linkedin" />
+            </div>
+            <h3 class="contact-title">Linkedin</h3>
+            <p class="contact-detail" role="button">
+              <a target="__blank" href="https://www.linkedin.com/in/md-mamunur-rashid-70042b69/" role="button"> mamunur-rashid-008 </a>
+            </p>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <Icon name="fa6-brands:github" />
+            </div>
+            <h3 class="contact-title">Github</h3>
+            <p class="contact-detail">
+              <a href="https://github.com/mamunur008" role="button" target="__blank">
+                mamunur008
+                <!-- <i class="fab fa-github"></i> -->
+              </a>
+            </p>
+          </div>
+          <!-- 
           <div class="contact-item">
             <div class="contact-icon">
               <i class="fas fa-phone"></i>
@@ -27,14 +47,17 @@
           <div class="contact-item">
             <div class="contact-icon">
               <i class="fas fa-map-marker-alt"></i>
-              <!-- <Icon name="fa6-solid:map-marker-alt" /> -->
+              
               <icon name="fa6-solid:location-dot" />
             </div>
             <h3 class="contact-title">Location</h3>
             <p class="contact-detail">549/A, Shameem Sharoni, 1216 Dhaka</p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
   </section>
 </template>
+<script setup>
+useHead({ title: "Contact - Mamunur Rashid" });
+</script>

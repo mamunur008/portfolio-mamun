@@ -55,14 +55,14 @@
 import { ref, computed } from "vue";
 
 const searchTerm = ref("");
-
+useHead({ title: "Exprience - Mamunur Rashid" });
 const experience = ref([
   {
     position: "Product Manager & Tech Lead",
     company: "Dollines Technologies, Dhaka",
     duration: "Apr 2024 - Present",
     description: "Leading architecture design for enterprise-level applications and mentoring development teams.",
-    achievements: ["Lead cross-functional teams to deliver innovative SaaS products", "Implemented CI/CD pipeline improving deployment frequency", "Architected microservices solutions"],
+    achievements: ["Lead cross-functional teams to deliver innovative SaaS products", "Architected microservices solutions"],
   },
   {
     position: "Senior Technical Manager",

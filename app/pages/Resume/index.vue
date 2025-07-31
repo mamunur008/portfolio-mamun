@@ -1,5 +1,5 @@
 <template>
-  <section id="resume" style="background-color: #f9f9f9">
+  <section id="resume" style="background-color: #f9f9f9; min-height: 80vh">
     <div class="container">
       <h2 class="section-title">My Resume</h2>
       <SearchBar v-model="searchTerm" v-if="false" />
@@ -85,7 +85,7 @@
 import { ref, computed } from "vue";
 
 const searchTerm = ref("");
-
+useHead({ title: "Resume - Mamunur Rashid" });
 // Reusing data from other components for the resume
 const experience = [
   {

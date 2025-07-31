@@ -50,21 +50,14 @@
 import { ref, computed } from "vue";
 
 const searchTerm = ref("");
-
+useHead({ title: "Projects - Mamunur Rashid" });
 const projects = ref([
   {
     name: "Phoenix Web Builder",
     img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400&q=80",
     year: 2005,
     description: "A no-code platform enabling users to create database-driven applications without coding.",
-    technologies: ["ASP.NET", "Vue.js", "SQL Server"],
-  },
-  {
-    name: "SalesTracing Platform",
-    img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400&q=80",
-    year: 2022,
-    description: "A business intelligence system that helps organizations maximize revenue through intelligent automation.",
-    technologies: ["ASP.NET", "Vue.js", "SQL Server"],
+    technologies: ["ASP.NET", "JQuery", "Report Builder", "SQL Server"],
   },
   {
     name: "iScanner Solution",
@@ -74,11 +67,18 @@ const projects = ref([
     technologies: ["LEADTOOLS OCR", "Lucene.NET", "iTextSharp"],
   },
   {
-    name: "Healthcare Management System",
-    year: 2003,
+    name: "SalesTracing Platform",
+    img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400&q=80",
+    year: 2022,
+    description: "A business intelligence system that helps organizations maximize revenue through intelligent automation.",
+    technologies: ["ASP.NET", "Vue.js", "SQL Server"],
+  },
+  {
+    name: "Sales System, Inventro Management System, CRM System, Ticketing System",
+    year: 2022,
     img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400&q=80",
-    description: "A comprehensive system for managing patient records, appointments, and billing.",
-    technologies: ["Angular", "Java", "PostgreSQL"],
+    description: "Close deals faster with automated quote-to-cash workflows, real-time sales analytics, and pipeline visualization. Optimize stock control with AI-driven demand forecasting, multi-warehouse tracking, and automated reordering. Streamline customer interactions with integrated ticketing, CRM, and support systems for 360-degree visibility.",
+    technologies: ["Laravel", "VUE.js", "MySql"],
   },
 ]);
 
@@ -87,37 +87,4 @@ const filteredProjects = computed(() => {
   const term = searchTerm.value.toLowerCase();
   return projects.value.filter((project) => project.name.toLowerCase().includes(term) || project.description.toLowerCase().includes(term) || project.technologies.some((tech) => tech.toLowerCase().includes(term)));
 });
-const head = computed(() => ({
-  title: "Projects - Mamunur Rashid",
-  meta: [
-    {
-      name: "Phonex Web Builder",
-      img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400&q=80",
-      year: 2023,
-      description: "A no-code platform enabling users to create database-driven applications without coding.",
-      technologies: ["ASP.NET", "Vue.js", "SQL Server"],
-    },
-    {
-      name: "SalesTracing Platform",
-      img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400&q=80",
-      year: 2023,
-      description: "A business intelligence system that helps organizations maximize revenue through intelligent automation.",
-      technologies: ["ASP.NET", "Vue.js", "SQL Server"],
-    },
-    {
-      name: "iScanner Solution",
-      img: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400&q=80",
-      year: 2023,
-      description: "A comprehensive document processing system with OCR capabilities for text extraction and full-text search.",
-      technologies: ["LEADTOOLS OCR", "Lucene.NET", "iTextSharp"],
-    },
-    {
-      name: "Healthcare Management System",
-      year: 2022,
-      img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400&q=80",
-      description: "A comprehensive system for managing patient records, appointments, and billing.",
-      technologies: ["Angular", "Java", "PostgreSQL"],
-    },
-  ],
-}));
 </script>

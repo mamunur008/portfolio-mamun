@@ -96,4 +96,5 @@ const filteredSkills = computed(() => {
 const head = computed(() => ({
   title: "Skills - Mamunur Rashid",
 }));
+useHead(head);
 </script>

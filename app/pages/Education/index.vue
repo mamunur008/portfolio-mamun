@@ -27,7 +27,7 @@
 import { ref, computed } from "vue";
 
 const searchTerm = ref("");
-
+useHead({ title: "Education - Mamunur Rashid" });
 const education = ref([
   {
     icon: "fa6-solid:graduation-cap",

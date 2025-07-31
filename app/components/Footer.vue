@@ -1,21 +1,17 @@
 <template>
   <footer>
     <div class="container">
-      <div class="logo" style="color: white; margin-bottom: 20px">MAMUN<span>.</span></div>
-      <p>Software Architect & Developer</p>
+      <div class="logo" style="color: white; margin-bottom: 20px">MD. MAMUNUR RASHID<span>.</span></div>
+      <p>Senior Technical Manager</p>
 
       <div class="social-links">
-        <a href="#" class="social-link">
-          <i class="fab fa-linkedin-in"></i>
+        <a href="https://www.linkedin.com/in/md-mamunur-rashid-70042b69/" class="social-link">
+          <!-- <i class="fab fa-linkedin-in"></i> -->
+          <Icon name="fa6-brands:linkedin" />
         </a>
-        <a href="#" class="social-link">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="#" class="social-link">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="social-link">
-          <i class="fab fa-facebook-f"></i>
+        <a href="https://github.com/mamunur008" class="social-link">
+          <Icon name="fa6-brands:github" />
+          <!-- <i class="fab fa-github"></i> -->
         </a>
       </div>
 

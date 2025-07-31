@@ -6,8 +6,8 @@
           <h1>Hi, I am <span>Md. Mamunur Rashid</span></h1>
           <p>A seasoned Software Architect and Developer with 21+ years of progressive experience, I've navigated the evolving landscape of technology, consistently delivering cutting-edge solutions. My expertise spans diverse tech stacks and complex system designs, with a passion for optimizing performance and scalability. I thrive on solving intricate technical challenges and mentoring teams to achieve excellence in software craftsmanship.</p>
           <div class="hero-btns">
-            <a href="/projects" class="btn btn-primary">View My Work</a>
-            <a href="/contact" class="btn btn-secondary">Contact Me</a>
+            <NuxtLink to="/projects" @click="closeMobileMenu" class="btn btn-primary">View My Work</NuxtLink>
+            <NuxtLink to="/contact" @click="closeMobileMenu" class="btn btn-secondary">Contact Me</NuxtLink>
           </div>
         </div>
         <div class="hero-image">
@@ -20,12 +20,18 @@
   </section>
 </template>
 
-<script>
-export default {
-  head() {
-    return {
-      title: "Md. Mamunur Rashid - Software Architect",
-    };
-  },
+<script setup>
+import { ref, computed } from "vue";
+const closeMobileMenu = () => {
+  document.querySelector(".nav-menu").classList.remove("active");
 };
+
+const head = computed(() => ({
+  title: "Md. Mamunur Rashid - Senior Technical Manager",
+  meta: [
+    { name: "description", content: "Md. Mamunur Rashid is a seasoned Software Architect and Developer with over 21 years of experience in delivering cutting-edge solutions." },
+    { name: "keywords", content: "Software Architect, Developer, Tech Lead, Mamunur Rashid, Portfolio" },
+  ],
+}));
+useHead(head);
 </script>
