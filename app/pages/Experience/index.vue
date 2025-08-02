@@ -60,7 +60,7 @@ const experience = ref([
   {
     position: "Product Manager & Tech Lead",
     company: "Dollines Technologies, Dhaka",
-    duration: "Apr 2024 - Present",
+    duration: "June 2024 - Present",
     description: "Leading architecture design for enterprise-level applications and mentoring development teams.",
     achievements: ["Lead cross-functional teams to deliver innovative SaaS products", "Architected microservices solutions"],
   },
@@ -82,6 +82,13 @@ const experience = ref([
     position: "Programmer",
     company: "Grameen Software Limited, Dhaka",
     duration: "Jan 2003 - Dec 2004",
+    description: "Started career developing and maintaining websites for big company Grameen Software Ltd.",
+    achievements: ["Developed ERP solutions for textile manufacturing", "Built web applications using .NET and JavaScript", "Implemented TDD practices"],
+  },
+  {
+    position: "Faculty Member",
+    company: "Grameen Star Education Center, Jatra-Bari, Dhaka",
+    duration: "July 2001 - Dec 2002",
     description: "Started career developing and maintaining websites for big company Grameen Software Ltd.",
     achievements: ["Developed ERP solutions for textile manufacturing", "Built web applications using .NET and JavaScript", "Implemented TDD practices"],
   },

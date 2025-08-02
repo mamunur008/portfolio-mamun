@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="logo" style="color: white; margin-bottom: 20px">MD. MAMUNUR RASHID<span>.</span></div>
-      <p>Senior Technical Manager</p>
+      <p>Passionate about development, quick to adopt new technologies, and experienced in team leadership.</p>
 
       <div class="social-links">
         <a href="https://www.linkedin.com/in/md-mamunur-rashid-70042b69/" class="social-link">
@@ -15,7 +15,7 @@
         </a>
       </div>
 
-      <p>&copy; 2024 Md. Mamunur Rashid. All rights reserved.</p>
+      <p>&copy; 2024 Mamunur Rashid. All rights reserved.</p>
     </div>
   </footer>
 </template>

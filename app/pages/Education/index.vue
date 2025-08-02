@@ -34,8 +34,8 @@ const education = ref([
     degree: "Bachelor in Computer Application",
     institution: "University of Madras (India)",
     year: "1998 - 2001",
-    description: "Developed strong programming skills and database management expertise.",
-    courses: ["Advanced Algorithms", "Cloud Computing", "Distributed Systems", "Software Architecture"],
+    description: "",
+    courses: ["Advanced Algorithms", "Database System", "Distributed Systems", "Software Architecture"],
   },
   {
     icon: "fa6-solid:graduation-cap",

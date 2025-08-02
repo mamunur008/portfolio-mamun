@@ -13,7 +13,7 @@ const closeMobileMenu = () => {
   <header>
     <div class="container">
       <nav>
-        <NuxtLink to="/" class="logo">MD. MAMUNUR RASHID<span>.</span></NuxtLink>
+        <NuxtLink to="/" class="logo">MAMUNUR RASHID<span>.</span></NuxtLink>
         <!-- <Img src="/images/mamun-icon.svg" width="50px" style="display: inline !important" /> -->
         <ul class="nav-menu">
           <li><NuxtLink to="/" @click="closeMobileMenu">Home</NuxtLink></li>
